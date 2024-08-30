@@ -1,0 +1,15 @@
+C:\Users\user\OneDrive\Desktop\AmazonShop\AmazonShop.Application\bin\Debug\net7.0\AmazonShop.Application.deps.json
+C:\Users\user\OneDrive\Desktop\AmazonShop\AmazonShop.Application\bin\Debug\net7.0\AmazonShop.Application.dll
+C:\Users\user\OneDrive\Desktop\AmazonShop\AmazonShop.Application\bin\Debug\net7.0\AmazonShop.Application.pdb
+C:\Users\user\OneDrive\Desktop\AmazonShop\AmazonShop.Application\bin\Debug\net7.0\AmazonShop.Domain.dll
+C:\Users\user\OneDrive\Desktop\AmazonShop\AmazonShop.Application\bin\Debug\net7.0\AmazonShop.Domain.pdb
+C:\Users\user\OneDrive\Desktop\AmazonShop\AmazonShop.Application\obj\Debug\net7.0\AmazonShop.Application.csproj.AssemblyReference.cache
+C:\Users\user\OneDrive\Desktop\AmazonShop\AmazonShop.Application\obj\Debug\net7.0\AmazonShop.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\OneDrive\Desktop\AmazonShop\AmazonShop.Application\obj\Debug\net7.0\AmazonShop.Application.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Desktop\AmazonShop\AmazonShop.Application\obj\Debug\net7.0\AmazonShop.Application.AssemblyInfo.cs
+C:\Users\user\OneDrive\Desktop\AmazonShop\AmazonShop.Application\obj\Debug\net7.0\AmazonShop.Application.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Desktop\AmazonShop\AmazonShop.Application\obj\Debug\net7.0\AmazonSh.626041DE.Up2Date
+C:\Users\user\OneDrive\Desktop\AmazonShop\AmazonShop.Application\obj\Debug\net7.0\AmazonShop.Application.dll
+C:\Users\user\OneDrive\Desktop\AmazonShop\AmazonShop.Application\obj\Debug\net7.0\refint\AmazonShop.Application.dll
+C:\Users\user\OneDrive\Desktop\AmazonShop\AmazonShop.Application\obj\Debug\net7.0\AmazonShop.Application.pdb
+C:\Users\user\OneDrive\Desktop\AmazonShop\AmazonShop.Application\obj\Debug\net7.0\ref\AmazonShop.Application.dll
