@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.API\\AmazonShop.API.csproj": {}
+    "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.API\\AmazonShop.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.API\\AmazonShop.API.csproj": {
+    "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.API\\AmazonShop.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.API\\AmazonShop.API.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.API\\AmazonShop.API.csproj",
         "projectName": "AmazonShop.API",
-        "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.API\\AmazonShop.API.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.API\\AmazonShop.API.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.API\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,14 +33,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.Application\\AmazonShop.Application.csproj": {
-                "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.Application\\AmazonShop.Application.csproj"
+              "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Application\\AmazonShop.Application.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Application\\AmazonShop.Application.csproj"
               },
-              "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.Common\\AmazonShop.Common.csproj": {
-                "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.Common\\AmazonShop.Common.csproj"
+              "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Common\\AmazonShop.Common.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Common\\AmazonShop.Common.csproj"
               },
-              "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.Infractructure\\AmazonShop.Infractructure.csproj": {
-                "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.Infractructure\\AmazonShop.Infractructure.csproj"
+              "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Infractructure\\AmazonShop.Infractructure.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Infractructure\\AmazonShop.Infractructure.csproj"
               }
             }
           }
@@ -86,6 +86,10 @@
               "target": "Package",
               "version": "[7.0.20, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -114,14 +118,14 @@
         }
       }
     },
-    "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.Application\\AmazonShop.Application.csproj": {
+    "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Application\\AmazonShop.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.Application\\AmazonShop.Application.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Application\\AmazonShop.Application.csproj",
         "projectName": "AmazonShop.Application",
-        "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.Application\\AmazonShop.Application.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Application\\AmazonShop.Application.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.Application\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -143,8 +147,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.Domain\\AmazonShop.Domain.csproj": {
-                "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.Domain\\AmazonShop.Domain.csproj"
+              "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Domain\\AmazonShop.Domain.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Domain\\AmazonShop.Domain.csproj"
               }
             }
           }
@@ -205,14 +209,14 @@
         }
       }
     },
-    "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.Common\\AmazonShop.Common.csproj": {
+    "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Common\\AmazonShop.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.Common\\AmazonShop.Common.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Common\\AmazonShop.Common.csproj",
         "projectName": "AmazonShop.Common",
-        "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.Common\\AmazonShop.Common.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Common\\AmazonShop.Common.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.Common\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -234,8 +238,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.Infractructure\\AmazonShop.Infractructure.csproj": {
-                "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.Infractructure\\AmazonShop.Infractructure.csproj"
+              "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Infractructure\\AmazonShop.Infractructure.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Infractructure\\AmazonShop.Infractructure.csproj"
               }
             }
           }
@@ -274,14 +278,14 @@
         }
       }
     },
-    "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.Domain\\AmazonShop.Domain.csproj": {
+    "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Domain\\AmazonShop.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.Domain\\AmazonShop.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Domain\\AmazonShop.Domain.csproj",
         "projectName": "AmazonShop.Domain",
-        "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.Domain\\AmazonShop.Domain.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Domain\\AmazonShop.Domain.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.Domain\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -339,14 +343,14 @@
         }
       }
     },
-    "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.Infractructure\\AmazonShop.Infractructure.csproj": {
+    "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Infractructure\\AmazonShop.Infractructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.Infractructure\\AmazonShop.Infractructure.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Infractructure\\AmazonShop.Infractructure.csproj",
         "projectName": "AmazonShop.Infractructure",
-        "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.Infractructure\\AmazonShop.Infractructure.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Infractructure\\AmazonShop.Infractructure.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.Infractructure\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Infractructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -368,11 +372,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.Application\\AmazonShop.Application.csproj": {
-                "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.Application\\AmazonShop.Application.csproj"
+              "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Application\\AmazonShop.Application.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Application\\AmazonShop.Application.csproj"
               },
-              "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.Domain\\AmazonShop.Domain.csproj": {
-                "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\AmazonShop\\AmazonShop.Domain\\AmazonShop.Domain.csproj"
+              "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Domain\\AmazonShop.Domain.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Domain\\AmazonShop.Domain.csproj"
               }
             }
           }
@@ -399,6 +403,10 @@
             "BCrypt.Net-Next": {
               "target": "Package",
               "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

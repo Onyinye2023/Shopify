@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AmazonShop.Application
-build_property.ProjectDir = C:\Users\user\OneDrive\Desktop\AmazonShop\AmazonShop.Application\
+build_property.ProjectDir = C:\Users\user\Desktop\Shopify\AmazonShop.Application\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

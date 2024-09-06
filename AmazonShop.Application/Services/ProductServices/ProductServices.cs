@@ -22,7 +22,7 @@ namespace AmazonShop.Application.Services.ProductServices
             _productRepo = productRepo;
 
         }
-        public async Task<ResponseDTO> AddMultipleProductAsync(IEnumerable<ProductDTO> productdtos, string userName)
+        public async Task<ResponseDTO> AddMultipleProductAsync(IEnumerable<ProductDTO> productdtos)
         {
             if (productdtos == null || !productdtos.Any())
             {
@@ -75,7 +75,7 @@ namespace AmazonShop.Application.Services.ProductServices
 
             try
             {
-                await _productRepo.AddMultipleProductAsync(validProducts, userName);
+                await _productRepo.AddMultipleProductAsync(validProducts);
                 return new ResponseDTO { Success = true, Message = "Products added successfully.", InvalidProducts = invalidProducts };
             }
             catch (Exception ex)
@@ -85,7 +85,7 @@ namespace AmazonShop.Application.Services.ProductServices
             }
         }
 
-        public async Task<ResponseDTO> AddSingleProductAsync(ProductDTO productdto, string userName)
+        public async Task<ResponseDTO> AddSingleProductAsync(ProductDTO productdto)
         {
             if (productdto == null)
             {
@@ -146,7 +146,7 @@ namespace AmazonShop.Application.Services.ProductServices
                     return new ResponseDTO { Success = false, Message = "Mapping error." };
                 }
 
-                await _productRepo.AddSingleProductAsync(product, userName);
+                await _productRepo.AddSingleProductAsync(product);
                 return new ResponseDTO { Success = true, Message = "Product added successfully." };
             }
             catch (Exception ex)

@@ -1,4 +1,6 @@
+using AmazonShop.API.CustomMiddleware;
 using AmazonShop.API.Extension;
+using Microsoft.AspNetCore.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +13,13 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDependencies(builder.Configuration);
 
+//register custom handler
+builder.Services.AddSingleton<IAuthorizationMiddlewareResultHandler, CustomAuthorizationMiddlewareResultHandler>();
+
+
+//Register HttpContextAccessor
+builder.Services.AddHttpContextAccessor();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -21,9 +30,14 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseAuthentication();
 
+app.UseAuthentication();
 app.UseAuthorization();
+
+
+
+
+
 
 app.MapControllers();
 

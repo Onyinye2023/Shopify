@@ -42,6 +42,11 @@ namespace AmazonShop.Domain.Models
         [CustomValidation(typeof(DateTimeValidation), nameof(DateTimeValidation.ValidateStockedDate))]
         public DateTime LastStockedDate { get; set; }
 
+        public string? LastModifiedBy { get; set; }
+
+        [DataType(DataType.DateTime)]
+        [CustomValidation(typeof(DateTimeValidation), nameof(DateTimeValidation.ValidateStockedDate))]
+        public DateTime? LastModifiedDate { get; set; }
 
         public Product()
         {

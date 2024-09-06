@@ -94,9 +94,18 @@ namespace AmazonShop.Application.Services.UserServices
         {
             try
             {
+                var user =  _baseRepo.GetByUserNameAsync(userName);
+
+                if (user == null)
+                {
+                    throw new Exception("User not found.");
+                }
+                
                 var claims = new List<Claim>
                 {
-                    new Claim("Name", userName)
+                    new Claim(ClaimTypes.Name, userName),
+                    new Claim(ClaimTypes.GivenName, user.FirstName),
+                    new Claim(ClaimTypes.Surname, user.LastName)
                 };
 
 

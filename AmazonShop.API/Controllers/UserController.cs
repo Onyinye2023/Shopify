@@ -22,6 +22,7 @@ namespace AmazonShop.API.Controllers
         }
 
         [HttpPost("register_user")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> RegisterUser([FromBody] UserRegisterDTO userDTO)
         {
             try

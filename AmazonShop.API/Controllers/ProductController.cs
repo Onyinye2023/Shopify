@@ -24,7 +24,7 @@ namespace AmazonShop.Api.Controllers
         }
 
         [HttpPost("stock_singleProduct")]
-        public async Task<IActionResult> AddSingleProduct([FromBody] ProductDTO productdto, string userName)
+        public async Task<IActionResult> AddSingleProduct([FromBody] ProductDTO productdto)
         {
             try
             {
@@ -33,7 +33,7 @@ namespace AmazonShop.Api.Controllers
                     return BadRequest("Product data is missing");
                 }
 
-                var response = await _productService.AddSingleProductAsync(productdto, userName);
+                var response = await _productService.AddSingleProductAsync(productdto);
 
                 if (!response.Success)
                 {
@@ -50,7 +50,7 @@ namespace AmazonShop.Api.Controllers
         }
 
         [HttpPost("stock_multipleProduct")]
-        public async Task<IActionResult> AddMultipleProduct([FromBody] IEnumerable<ProductDTO> productdtos, string userName)
+        public async Task<IActionResult> AddMultipleProduct([FromBody] IEnumerable<ProductDTO> productdtos)
         {
             if (productdtos == null || !productdtos.Any())
             {
@@ -60,7 +60,7 @@ namespace AmazonShop.Api.Controllers
 
             try
             {
-                var response = await _productService.AddMultipleProductAsync(productdtos, userName);
+                var response = await _productService.AddMultipleProductAsync(productdtos);
 
                 if (!response.Success)
                 {

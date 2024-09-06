@@ -2,33 +2,31 @@
 using AmazonShop.Domain.Enums;
 using AmazonShop.Domain.Models;
 using AmazonShop.Infrastructure.Data;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 namespace AmazonShop.Infractructure.Repositories.ProductRepo
 {
     public class ProductRepository : IProductRepository<Product>
     {
         private readonly AppDbContext _context;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public ProductRepository(AppDbContext context)
+        public ProductRepository(AppDbContext context, IHttpContextAccessor httpContextAccessor)
         {
             _context = context;
+            _httpContextAccessor = httpContextAccessor;
         }
 
-        public async Task AddMultipleProductAsync(IEnumerable<Product> products, string username)
+        public async Task AddMultipleProductAsync(IEnumerable<Product> products)
         {
             if (products == null || !products.Any())
             {
                 throw new ArgumentException("Product list is null or empty.", nameof(products));
             }
 
-            var getUser = await _context.Users
-               .Include(r => r.Role)
-               .FirstOrDefaultAsync(u => u.UserName == username);
-
-            if (getUser == null)
-            {
-                throw new ArgumentException("User not found.", nameof(username));
-            }
+            var firstName = _httpContextAccessor.HttpContext?.User?.FindFirst(ClaimTypes.GivenName)?.Value ?? "Unknown";
+            var lastName = _httpContextAccessor.HttpContext?.User?.FindFirst(ClaimTypes.Surname)?.Value ?? "Unknown";
 
             try
             {
@@ -43,14 +41,14 @@ namespace AmazonShop.Infractructure.Repositories.ProductRepo
                         existingProduct.PricePerProduct = product.PricePerProduct;
                         existingProduct.Quantity += product.Quantity;
                         existingProduct.TotalAmount = existingProduct.Quantity * product.PricePerProduct;
-                        existingProduct.LastStockedBy = getUser.FirstName + " " + getUser.LastName;
+                        existingProduct.LastStockedBy = $"{firstName} {lastName}";
                         existingProduct.LastStockedDate = DateTime.Now;
                     }
                     else
                     {
                         // Add the new product
-                        product.FirstStockedBy = getUser.FirstName + " " + getUser.LastName;
-                        product.LastStockedBy = getUser.FirstName + " " + getUser.LastName;
+                        product.FirstStockedBy = $"{firstName} {lastName}"; ;
+                        product.LastStockedBy = $"{firstName} {lastName}"; ;
                         product.LastStockedDate = DateTime.Now;
                         product.FirstStockedDate = DateTime.Now;
                         _context.Products.Add(product);
@@ -66,21 +64,16 @@ namespace AmazonShop.Infractructure.Repositories.ProductRepo
 
         }
 
-        public async Task AddSingleProductAsync(Product product, string username)
+        public async Task AddSingleProductAsync(Product product)
         {
             if (product == null)
             {
                 throw new ArgumentException("No products to add.", nameof(product));
             }
 
-            var getUser = await _context.Users
-                .Include(r => r.Role)
-                .FirstOrDefaultAsync(u => u.UserName == username);
+            var firstName = _httpContextAccessor.HttpContext?.User?.FindFirst(ClaimTypes.GivenName)?.Value ?? "Unknown";
+            var lastName = _httpContextAccessor.HttpContext?.User?.FindFirst(ClaimTypes.Surname)?.Value ?? "Unknown";
 
-            if (getUser == null)
-            {
-                throw new ArgumentException("User not found.", nameof(username));
-            }
 
             try
             {
@@ -92,14 +85,14 @@ namespace AmazonShop.Infractructure.Repositories.ProductRepo
                     existingProduct.PricePerProduct = product.PricePerProduct;
                     existingProduct.Quantity += product.Quantity;
                     existingProduct.TotalAmount = existingProduct.Quantity * product.PricePerProduct;
-                    existingProduct.LastStockedBy = getUser.FirstName + " " + getUser.LastName;
+                    existingProduct.LastStockedBy = $"{firstName} {lastName}";
                     existingProduct.LastStockedDate = DateTime.Now;
                 }
                 else
                 {
                     // Add the new product
-                    product.FirstStockedBy = getUser.FirstName + " " + getUser.LastName;
-                    product.LastStockedBy = getUser.FirstName + " " + getUser.LastName;
+                    product.FirstStockedBy = $"{firstName} {lastName}";
+                    product.LastStockedBy = $"{firstName} {lastName}";
                     product.LastStockedDate = DateTime.Now;
                     product.FirstStockedDate = DateTime.Now;
                     _context.Products.Add(product);
@@ -114,14 +107,24 @@ namespace AmazonShop.Infractructure.Repositories.ProductRepo
         }
 
 
-        public async Task<bool> DeleteAsync(Product product, int quantity)
+        public async Task<bool> DeleteAsync(Product product, int? quantity = null)
         {
-            if (product.Quantity < quantity)
+            int qtyToRemove = quantity ?? product.Quantity;
+
+            if (product.Quantity < qtyToRemove)
             {
-                return false; // Not enough quantity to delete
+                return false;
             }
 
-            product.Quantity -= quantity;
+            product.Quantity -= qtyToRemove;
+            product.TotalAmount = product.PricePerProduct * product.Quantity;
+
+            // Get the logged-in user's first name and last name from HttpContext
+            var firstName = _httpContextAccessor.HttpContext?.User?.FindFirst(ClaimTypes.GivenName)?.Value ?? "Unknown";
+            var lastName = _httpContextAccessor.HttpContext?.User?.FindFirst(ClaimTypes.Surname)?.Value ?? "Unknown";
+
+            product.LastModifiedBy = $"{firstName} {lastName}";
+            product.LastModifiedDate = DateTime.Now;
 
             if (product.Quantity == 0)
             {
@@ -135,6 +138,8 @@ namespace AmazonShop.Infractructure.Repositories.ProductRepo
             await _context.SaveChangesAsync();
             return true;
         }
+
+
 
         public async Task<IEnumerable<Product>> GetAllAsync()
         {

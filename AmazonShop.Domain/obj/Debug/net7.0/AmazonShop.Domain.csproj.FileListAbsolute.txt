@@ -9,3 +9,15 @@ C:\Users\user\OneDrive\Desktop\AmazonShop\AmazonShop.Domain\obj\Debug\net7.0\Ama
 C:\Users\user\OneDrive\Desktop\AmazonShop\AmazonShop.Domain\obj\Debug\net7.0\refint\AmazonShop.Domain.dll
 C:\Users\user\OneDrive\Desktop\AmazonShop\AmazonShop.Domain\obj\Debug\net7.0\AmazonShop.Domain.pdb
 C:\Users\user\OneDrive\Desktop\AmazonShop\AmazonShop.Domain\obj\Debug\net7.0\ref\AmazonShop.Domain.dll
+C:\Users\user\Desktop\Shopify\AmazonShop.Domain\bin\Debug\net7.0\AmazonShop.Domain.deps.json
+C:\Users\user\Desktop\Shopify\AmazonShop.Domain\bin\Debug\net7.0\AmazonShop.Domain.dll
+C:\Users\user\Desktop\Shopify\AmazonShop.Domain\bin\Debug\net7.0\AmazonShop.Domain.pdb
+C:\Users\user\Desktop\Shopify\AmazonShop.Domain\obj\Debug\net7.0\AmazonShop.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Shopify\AmazonShop.Domain\obj\Debug\net7.0\AmazonShop.Domain.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Shopify\AmazonShop.Domain\obj\Debug\net7.0\AmazonShop.Domain.AssemblyInfo.cs
+C:\Users\user\Desktop\Shopify\AmazonShop.Domain\obj\Debug\net7.0\AmazonShop.Domain.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Shopify\AmazonShop.Domain\obj\Debug\net7.0\AmazonShop.Domain.sourcelink.json
+C:\Users\user\Desktop\Shopify\AmazonShop.Domain\obj\Debug\net7.0\AmazonShop.Domain.dll
+C:\Users\user\Desktop\Shopify\AmazonShop.Domain\obj\Debug\net7.0\refint\AmazonShop.Domain.dll
+C:\Users\user\Desktop\Shopify\AmazonShop.Domain\obj\Debug\net7.0\AmazonShop.Domain.pdb
+C:\Users\user\Desktop\Shopify\AmazonShop.Domain\obj\Debug\net7.0\ref\AmazonShop.Domain.dll

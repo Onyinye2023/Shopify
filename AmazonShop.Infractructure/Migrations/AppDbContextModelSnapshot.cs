@@ -65,6 +65,12 @@ namespace AmazonShop.Infractructure.Migrations
                     b.Property<DateTime>("FirstStockedDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("LastModifiedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("LastModifiedDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("LastStockedBy")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
