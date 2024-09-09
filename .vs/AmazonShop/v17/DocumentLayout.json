@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Shopify\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E560C7C8-8FEA-40D0-AA18-7B13E6A4D97C}|AmazonShop.Application\\AmazonShop.Application.csproj|c:\\users\\user\\desktop\\shopify\\amazonshop.application\\abstraction\\irepositories\\iproductrepo\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E560C7C8-8FEA-40D0-AA18-7B13E6A4D97C}|AmazonShop.Application\\AmazonShop.Application.csproj|solutionrelative:amazonshop.application\\abstraction\\irepositories\\iproductrepo\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E560C7C8-8FEA-40D0-AA18-7B13E6A4D97C}|AmazonShop.Application\\AmazonShop.Application.csproj|c:\\users\\user\\desktop\\shopify\\amazonshop.application\\abstraction\\iservices\\iproductservices\\iproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E560C7C8-8FEA-40D0-AA18-7B13E6A4D97C}|AmazonShop.Application\\AmazonShop.Application.csproj|solutionrelative:amazonshop.application\\abstraction\\iservices\\iproductservices\\iproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{84D9178E-5AC2-4C73-8A4D-8BB907EE9224}|AmazonShop.Infractructure\\AmazonShop.Infractructure.csproj|c:\\users\\user\\desktop\\shopify\\amazonshop.infractructure\\repositories\\productrepo\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84D9178E-5AC2-4C73-8A4D-8BB907EE9224}|AmazonShop.Infractructure\\AmazonShop.Infractructure.csproj|solutionrelative:amazonshop.infractructure\\repositories\\productrepo\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5982B5-638E-453A-A6B3-0184378B41C6}|AmazonShop.API\\AmazonShop.API.csproj|c:\\users\\user\\desktop\\shopify\\amazonshop.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC5982B5-638E-453A-A6B3-0184378B41C6}|AmazonShop.API\\AmazonShop.API.csproj|solutionrelative:amazonshop.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E560C7C8-8FEA-40D0-AA18-7B13E6A4D97C}|AmazonShop.Application\\AmazonShop.Application.csproj|c:\\users\\user\\desktop\\shopify\\amazonshop.application\\services\\productservices\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E560C7C8-8FEA-40D0-AA18-7B13E6A4D97C}|AmazonShop.Application\\AmazonShop.Application.csproj|solutionrelative:amazonshop.application\\services\\productservices\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC5982B5-638E-453A-A6B3-0184378B41C6}|AmazonShop.API\\AmazonShop.API.csproj|c:\\users\\user\\desktop\\shopify\\amazonshop.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC5982B5-638E-453A-A6B3-0184378B41C6}|AmazonShop.API\\AmazonShop.API.csproj|solutionrelative:amazonshop.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E560C7C8-8FEA-40D0-AA18-7B13E6A4D97C}|AmazonShop.Application\\AmazonShop.Application.csproj|c:\\users\\user\\desktop\\shopify\\amazonshop.application\\abstraction\\iservices\\iproductservices\\iproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E560C7C8-8FEA-40D0-AA18-7B13E6A4D97C}|AmazonShop.Application\\AmazonShop.Application.csproj|solutionrelative:amazonshop.application\\abstraction\\iservices\\iproductservices\\iproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E560C7C8-8FEA-40D0-AA18-7B13E6A4D97C}|AmazonShop.Application\\AmazonShop.Application.csproj|c:\\users\\user\\desktop\\shopify\\amazonshop.application\\services\\userservices\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E560C7C8-8FEA-40D0-AA18-7B13E6A4D97C}|AmazonShop.Application\\AmazonShop.Application.csproj|solutionrelative:amazonshop.application\\services\\userservices\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E560C7C8-8FEA-40D0-AA18-7B13E6A4D97C}|AmazonShop.Application\\AmazonShop.Application.csproj|c:\\users\\user\\desktop\\shopify\\amazonshop.application\\abstraction\\irepositories\\iproductrepo\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E560C7C8-8FEA-40D0-AA18-7B13E6A4D97C}|AmazonShop.Application\\AmazonShop.Application.csproj|solutionrelative:amazonshop.application\\abstraction\\irepositories\\iproductrepo\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5982B5-638E-453A-A6B3-0184378B41C6}|AmazonShop.API\\AmazonShop.API.csproj|c:\\users\\user\\desktop\\shopify\\amazonshop.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC5982B5-638E-453A-A6B3-0184378B41C6}|AmazonShop.API\\AmazonShop.API.csproj|solutionrelative:amazonshop.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E560C7C8-8FEA-40D0-AA18-7B13E6A4D97C}|AmazonShop.Application\\AmazonShop.Application.csproj|c:\\users\\user\\desktop\\shopify\\amazonshop.application\\abstraction\\iservices\\iuserservices\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FC5982B5-638E-453A-A6B3-0184378B41C6}|AmazonShop.API\\AmazonShop.API.csproj|c:\\users\\user\\desktop\\shopify\\amazonshop.api\\extension\\productextensionregistrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC5982B5-638E-453A-A6B3-0184378B41C6}|AmazonShop.API\\AmazonShop.API.csproj|solutionrelative:amazonshop.api\\extension\\productextensionregistrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC5982B5-638E-453A-A6B3-0184378B41C6}|AmazonShop.API\\AmazonShop.API.csproj|c:\\users\\user\\desktop\\shopify\\amazonshop.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC5982B5-638E-453A-A6B3-0184378B41C6}|AmazonShop.API\\AmazonShop.API.csproj|solutionrelative:amazonshop.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC5982B5-638E-453A-A6B3-0184378B41C6}|AmazonShop.API\\AmazonShop.API.csproj|c:\\users\\user\\desktop\\shopify\\amazonshop.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,33 +66,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ProductServices.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Application\\Services\\ProductServices\\ProductServices.cs",
               "RelativeDocumentMoniker": "AmazonShop.Application\\Services\\ProductServices\\ProductServices.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Application\\Services\\ProductServices\\ProductServices.cs",
               "RelativeToolTip": "AmazonShop.Application\\Services\\ProductServices\\ProductServices.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAYwE0AAABIAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwJ8AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-06T11:42:46.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "IProductServices.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Application\\Abstraction\\IServices\\IProductServices\\IProductServices.cs",
               "RelativeDocumentMoniker": "AmazonShop.Application\\Abstraction\\IServices\\IProductServices\\IProductServices.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Application\\Abstraction\\IServices\\IProductServices\\IProductServices.cs",
               "RelativeToolTip": "AmazonShop.Application\\Abstraction\\IServices\\IProductServices\\IProductServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABUAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAkwBIAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-06T11:40:13.718Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IUserServices.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Application\\Abstraction\\IServices\\IUserServices\\IUserServices.cs",
               "RelativeDocumentMoniker": "AmazonShop.Application\\Abstraction\\IServices\\IUserServices\\IUserServices.cs",
@@ -100,25 +100,24 @@
               "RelativeToolTip": "AmazonShop.Application\\Abstraction\\IServices\\IUserServices\\IUserServices.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T11:39:43.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-06T11:39:43.283Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "UserServices.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Application\\Services\\UserServices\\UserServices.cs",
               "RelativeDocumentMoniker": "AmazonShop.Application\\Services\\UserServices\\UserServices.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Application\\Services\\UserServices\\UserServices.cs",
               "RelativeToolTip": "AmazonShop.Application\\Services\\UserServices\\UserServices.cs",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAmwHIAAAAQAAAA",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAgwG4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-06T10:52:52.705Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ProductExtensionRegistrar.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.API\\Extension\\ProductExtensionRegistrar.cs",
               "RelativeDocumentMoniker": "AmazonShop.API\\Extension\\ProductExtensionRegistrar.cs",
@@ -126,25 +125,24 @@
               "RelativeToolTip": "AmazonShop.API\\Extension\\ProductExtensionRegistrar.cs",
               "ViewState": "AQIAAGsAAAAAAAAAAAAkwCQAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T10:30:18.159Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-06T10:30:18.159Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.API\\Program.cs",
               "RelativeDocumentMoniker": "AmazonShop.API\\Program.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.API\\Program.cs",
               "RelativeToolTip": "AmazonShop.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-06T10:29:23.812Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Application\\Abstraction\\IRepositories\\IProductRepo\\IProductRepository.cs",
               "RelativeDocumentMoniker": "AmazonShop.Application\\Abstraction\\IRepositories\\IProductRepo\\IProductRepository.cs",
@@ -157,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.API\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "AmazonShop.API\\Controllers\\ProductController.cs",
@@ -165,18 +163,17 @@
               "RelativeToolTip": "AmazonShop.API\\Controllers\\ProductController.cs",
               "ViewState": "AQIAAEAAAAAAAAAAAAAMwD4AAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T10:10:30.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-06T10:10:30.182Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Infractructure\\Repositories\\ProductRepo\\ProductRepository.cs",
               "RelativeDocumentMoniker": "AmazonShop.Infractructure\\Repositories\\ProductRepo\\ProductRepository.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\Shopify\\AmazonShop.Infractructure\\Repositories\\ProductRepo\\ProductRepository.cs",
               "RelativeToolTip": "AmazonShop.Infractructure\\Repositories\\ProductRepo\\ProductRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAYwGwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-06T09:00:53.522Z",
               "EditorCaption": ""
@@ -191,8 +188,7 @@
               "RelativeToolTip": "AmazonShop.API\\Controllers\\UserController.cs",
               "ViewState": "AQIAAFAAAAAAAAAAAAAgwFkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T10:16:45.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T10:16:45.556Z"
             }
           ]
         }
